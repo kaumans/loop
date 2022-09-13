@@ -1,4 +1,3 @@
-let RandomNumber = 0
 input.onGesture(Gesture.Shake, function () {
     RandomNumber = randint(0, 2)
     if (RandomNumber == 0) {
@@ -9,6 +8,8 @@ input.onGesture(Gesture.Shake, function () {
         basic.showString("Yes")
     }
 })
+let RandomNumber = 0
+basic.showString("8 Ball")
 basic.forever(function () {
 	
 })
